@@ -1,6 +1,6 @@
 var request= new XMLHttpRequest;
 
-request.open(GET,'data.json',true);
+request.open('GET','data.json',true);
 
 request.onload= function(){
     // beginning accessing json data here
