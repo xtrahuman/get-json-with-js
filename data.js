@@ -10,5 +10,5 @@ request.onload= function(){
         console.log(data[i].name + ' is a ' + data[i].race + '.')
     }
 }
-request.send();
+request.send()
 
