@@ -1,4 +1,4 @@
-var request= new XMLHttpRequest;
+var request= new XMLHttpRequest();
 
 request.open('GET','data.json',true);
 
@@ -11,3 +11,4 @@ request.onload= function(){
     }
 }
 request.send();
+
